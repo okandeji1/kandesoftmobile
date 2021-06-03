@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    tools:context=".fragments.FragmentContact">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/phone_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="24dp"
+                android:id="@+id/icon_phone"
+                android:src="@drawable/phone"
+                android:layout_height="24dp"/>
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:text="+2347087828631"
+                android:layout_toRightOf="@id/icon_phone"
+                android:layout_toEndOf="@id/icon_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/email_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="24dp"
+                android:id="@+id/icon_email"
+                android:src="@drawable/email"
+                android:layout_height="24dp"/>
+            <TextView
+                android:id="@+id/txt_email"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:text="okandeji2012@gmail.com"
+                android:layout_toRightOf="@id/icon_email"
+                android:layout_toEndOf="@id/icon_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/place_wrapper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="24dp"
+                android:id="@+id/icon_place"
+                android:src="@drawable/place"
+                android:layout_height="24dp"/>
+            <TextView
+                android:id="@+id/txt_place"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:text="5, Oyedokun Street, Agbede, Ikorodu, Lagos."
+                android:layout_toRightOf="@id/icon_place"
+                android:layout_toEndOf="@id/icon_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
